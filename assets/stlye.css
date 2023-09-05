@@ -1,12 +1,78 @@
 * {
-  color: #120ff9;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 
 }
 
-div {
-  color: #120ff9;
+a {
+  color: antiquewhite;
 }
 
-header {
-  color: aquamarine;
+.header {
+  color: #dcd2d2;
+  background-color: rgb(56, 21, 137);
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.header div {
+  font-size: 15px;
+  margin-left: 1000px;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline;
+  margin-left: 25px;
+}
+
+.LP {
+  float: right;
+  left: 600px;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.bio {
+  background-color: rgb(148, 148, 231);
+  text-align: center;
+  width: 62%;
+  margin: 10px;
+  padding: 100px;
+  float: left;
+}
+
+.about-me {
+  background-color: rgb(148, 148, 231);
+  text-align: center;
+  width: 62%;
+  margin: 10px;
+  padding: 100px;
+  float: left;
+}
+
+
+footer {
+  padding: 30px;
+  clear: both;
+  margin: 0px;
+}
+
+.end {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+.about-header {
+  color: black;
+  background-color: rgb(148, 148, 231);
+  padding: 20px;
+  margin: 20px;
 }
