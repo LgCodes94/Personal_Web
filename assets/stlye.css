@@ -2,33 +2,29 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
+  background-image: ./assets
 }
 
 a {
   color: antiquewhite;
 }
 
+
 .header {
-  color: #dcd2d2;
-  background-color: rgb(56, 21, 137);
+  background-color: hsla(255, 61%, 28%, 0.5);
+  color: beige;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
+  text-align: center;
 }
 
-.header div {
+.header nav a {
+  display: flex;
+  justify-content: flex-end;
   font-size: 15px;
-  margin-left: 1000px;
-}
-
-.header div ul {
-  list-style-type: none;
-}
-
-.header div ul li {
-  display: inline;
-  margin-left: 25px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .LP {
@@ -40,7 +36,7 @@ a {
 
 
 .bio {
-  background-color: rgb(148, 148, 231);
+  background-color: hsla(163, 15%, 59%, 0.5);
   text-align: center;
   width: 62%;
   margin: 10px;
@@ -49,7 +45,7 @@ a {
 }
 
 .about-me {
-  background-color: rgb(148, 148, 231);
+  background-color: hsla(163, 15%, 59%, 0.5);
   text-align: center;
   width: 62%;
   margin: 10px;
@@ -67,7 +63,7 @@ footer {
 .end {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: beige;
+  background-color: hsla(255, 61%, 28%, 0.5);
 }
 
 .about-header {
