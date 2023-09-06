@@ -9,6 +9,10 @@ a {
   color: antiquewhite;
 }
 
+style {
+  display: flex;
+  justify-content: center;
+}
 
 .header {
   background-color: hsla(255, 61%, 28%, 0.5);
